@@ -1,41 +1,38 @@
 html,
 body,
 * {
-  height: 100%;
+  background-color: skyblue;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* Normally 100% is 16px, we want the size to be 10px so we do 62.5% */
 }
-h1 {
+.h1 {
   font-size: 50px;
   text-align: center;
-  color: skyblue;
-  border: 3px;
-}
-.image {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
+  margin: 10px auto;
+  border: 3px solid blue;
+  display: inline-flex;
   align-items: center;
-  flex-direction: row;
- 
 }
 .parent {
-  font-size: 20px;
+  font-size:30px;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  text-align: center;
 }
-.about-image{
-  border: 10px blue;
-  padding: 10px;
-  border-style: groove;
-  }
+.child-child-1 {
+
+  padding:5px 5px 5px 5px;
+width: 25%;
+height: auto;
+border-radius: 5px;
+
 }
-/* .child {
-  width: 28%;
+.child {
 }
 .child-1 {
   border: 3px solid green;
@@ -43,24 +40,17 @@ h1 {
 }
 .child-2 {
   border: 3px solid yellow;
-  height: 500px;
-  flex-grow: 2;
+  height: 300px;
 }
 .child-3 {
   border: 3px solid blue;
-  height: 600px;
+  height: 300px;
+  flex-grow: 3;
 }
-h2 {
-  margin: 1rem;
-  flex-wrap: wrap;
-}
-.px-size {
-  font-size: 20px;
-  text-align: left;
-}
-.rem-size {
-  font-size: 2rem; /* base root font size */
-}
-/* .em-size {
-  font-size: 5em; this should be 50 pixels (5em)
-} */ */
+
+
+
+
+
+
+
