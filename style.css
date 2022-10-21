@@ -69,9 +69,26 @@ justify-content: space-evenly;
   height:auto;
   flex-grow: 3;
 }
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: pink;  
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+
+
+}
+@media only screen and (max-width: 992px) {
 
 
 
+}
+@media only screen and (max-width: 1200px){
+
+
+  
+}
 
 
 
